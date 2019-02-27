@@ -370,6 +370,22 @@ figure {
   .project-imageContainer {
     width: auto;
   }
+
+  .project-title{
+    font-size: 1.5em;
+  }
+  .project-course{
+    font-size: 1em;
+  }
+  .project-date{
+    font-size: 1em;
+  }
+  .project-url{
+    font-size: 1em;
+  }
+  .project-description{
+  font-size: .8em;
+  }
 }
 
 @media screen and (max-width: 480px) {
