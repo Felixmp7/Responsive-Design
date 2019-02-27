@@ -336,8 +336,23 @@ figure {
 
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 767px) {
+  .header{
+    display: block;
+    height: auto;
+  }
+  .logo{
+    text-align: center;
+  }
+  .header ol {
+    display: initial;
+  }
+  .header ol li{
+    height: 50px;
+  }
+  .header a {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
