@@ -139,11 +139,15 @@ h2 {
 
 
 .project-details {
-  width: 500px;
+  width: 50%;
 }
 
 .project-imageContainer {
-  width: 500px;
+  width: 50%;
+}
+
+.project-imageContainer img {
+  max-width: 100%;
 }
 
 .header {
@@ -352,6 +356,19 @@ figure {
   }
   .header a {
     justify-content: center;
+  }
+
+  .project{
+    display: block;
+  }
+
+  .project-imageContainer{
+    text-align: center;
+  }
+
+  .project-details,
+  .project-imageContainer {
+    width: auto;
   }
 }
 
