@@ -33,7 +33,7 @@ body {
   margin: 0;
 }
 
-h1, 
+h1,
 h2,
 h3,
 h4,
@@ -108,7 +108,7 @@ h2 {
   /* margin: 10px; */
   margin-bottom: 15px;
   /* margin-right
-  margin-left 
+  margin-left
   margin-top */
   padding: 20px;
   background: white;
@@ -153,6 +153,7 @@ h2 {
   height: 70px;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 ol,
@@ -226,7 +227,7 @@ figure {
 .event-list-title {
   margin-left: 20px;
 }
-.event { 
+.event {
   margin: 10px;
   width: 480px;
   flex-shrink: 0;
@@ -315,17 +316,34 @@ figure {
   margin-top: 10px;
 }
 
-.form-email h3 { 
+.form-email h3 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
   /* border: 1px solid red; */
-  width: 1000px;
+  max-width: 1000px;
+  /* width: 100%; */
+  flex:1; /* Ésto indica que el elemento se expandirá todo lo que pueda hasta 1000px en éste caso */
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+}
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
 }
