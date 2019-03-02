@@ -401,6 +401,10 @@ figure {
     margin: -2em .5em .5em;
     padding: 1em;
   }
+
+  .contact {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 320px) {
