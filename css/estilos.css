@@ -232,8 +232,8 @@ figure {
   margin-left: 20px;
 }
 .event {
-  margin: 10px;
-  width: 480px;
+  margin: 1%;
+  width: 48%;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
@@ -386,10 +386,21 @@ figure {
   .project-description{
   font-size: .8em;
   }
+  .event {
+    width: auto;
+    flex-shrink: initial;
+  }
+
+  .event img{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
+  .event-detail{
+    margin: -2em .5em .5em;
+    padding: 1em;
+  }
 }
 
 @media screen and (max-width: 320px) {
